@@ -10,6 +10,7 @@ $(document).ready(function(){
     stop: function () {
       console.log("stopping???");
 
+
       // if( img is far right side  then ) user wins.
 
       let dogeLeft = $("img").position().left;
