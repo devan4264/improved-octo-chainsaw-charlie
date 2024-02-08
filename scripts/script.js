@@ -14,13 +14,13 @@ $(document).ready(function(){
 
       let dogeLeft = $("img").position().left;
 
-      if (dogeLeft > 1200) {
-        console.log("we above 1200!", dogeLeft);
+      if (dogeLeft > 1000) {
+        console.log("we above 1000!", dogeLeft);
 
         $("h1").text("Am full now, much happy!");
 
       } else {
-        console.log("we NOT above 1200");
+        console.log("we NOT above 1000");
       }
     },
   });
